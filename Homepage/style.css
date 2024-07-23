@@ -1,0 +1,188 @@
+body {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  /* HEADER */
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: fit-content;
+    text-align: center;
+    padding: 12px 0px;
+    width: 100%;
+    background-color: #132758;
+  }
+  
+  header .sosmed {
+    display: flex;
+  }
+  
+  header .sosmed p {
+    margin: 0px 12px 0px 0px;
+    color: white;
+  }
+  
+  header .sosmed i {
+    cursor: pointer;
+    text-align: center;
+    color: rgb(94, 94, 94);
+    padding-top: 6px;
+    margin-right: 9.67px;
+    font-size: 15px;
+    border: none;
+    border-radius: 50px;
+    background: white;
+    height: 25px;
+    width: 25px;
+  }
+  
+  header .text {
+    color: white;
+  }
+  
+  header .text h5 {
+    font-size: calc(12px + 0.5vw);
+  }
+  
+  header .contact {
+    display: flex;
+    color: white;
+  }
+  
+  header .contact p {
+    margin: 0px;
+  }
+  
+  header .contact i {
+    cursor: pointer;
+    padding-right: 8px;
+    padding-top: 6px;
+  }
+  
+  header .gmail {
+    display: flex;
+    color: white;
+  }
+  
+  header .gmail i {
+    cursor: pointer;
+    padding-right: 8px;
+    padding-top: 6px;
+  }
+  
+  header .gmail p {
+    margin: 0px;
+  }
+  
+  /* HEADER */
+  
+  /* NAVBAR */
+  nav h1 {
+    margin-left: 90px;
+    font-weight: 700;
+    color: #132758;
+    margin-right: 170px;
+  }
+  
+  nav ul li {
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(94, 94, 94);
+  }
+  
+  .nav-link:hover,
+  .nav-link.active {
+    color: #132758 !important;
+  }
+  
+  form {
+    margin-right: 95px;
+  }
+  
+  .btn1,
+  .btn2,
+  .btn3 {
+    height: 38px;
+    background-color: white;
+    color: gray;
+    border: 2px solid rgb(198, 197, 197);
+    border-radius: 4px;
+    margin-left: 9.5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    transition: 0.3s;
+  }
+  
+  .btn1:hover,
+  .btn2:hover,
+  .btn3:hover {
+    background-color: #132758;
+    color: white;
+  }
+  
+  .btn1 i {
+    padding-right: 8px;
+  }
+  
+  /* NAVBAR */
+  
+  .carousel-inner img {
+    max-height: 596px;
+  }
+  
+  .carousel-inner h1 {
+    margin-bottom: 420px;
+  }
+  
+  /* RESPONSIVE */
+  /* HEADER */
+  @media screen and (max-width: 1300px) {
+  
+    header {
+      text-align: center;
+    }
+  
+    /* NAVBAR */
+    nav h1 {
+      font-size: 25px;
+      margin-left: 50px;
+    }
+  
+    nav ul li {
+      font-size: 15px;
+      font-weight: 700;
+    }
+  
+  }
+
+  .services-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #132758;
+    padding: 40px;
+}
+
+.service-item {
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px;
+    text-align: center;
+    width: 300px;
+    height: 150px;
+}
+
+.service-item img {
+    width: 10px;
+    height: 30px;
+}
+
+.service-item h3 {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.service-item p {
+    font-size: 14px;
+}
